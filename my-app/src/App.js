@@ -1,17 +1,19 @@
 import React from 'react';
-import './App.css';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import GameDescription from './pages/FleeTheFlood';
+import AppRouter from './components/AppRouter';
 
 function App() {
   return (
     <div className='app-container'>
-      <Header />
-      <main>
-        <GameDescription />
-      </main>
-      <Footer />
+      <Router>
+        <Header />
+        <main>
+          <AppRouter />
+        </main>
+        <Footer />
+      </Router>
     </div>
   );
 }

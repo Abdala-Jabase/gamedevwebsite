@@ -1,17 +1,15 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from '../pages/HomePage';
-import FleeTheFlood from '../pages/FleeTheFlood';
-import PrivacyPolicy from './components/Contact';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Home from './HomePage';
+import FleeTheFlood from './FleeTheFlood';
+import PrivacyPolicy from './PrivacyPolicy';
 
 function AppRouter() {
     return (
         <Router>
-            <Switch>
-                <Route exact path='/' component={Home} />
-                <Route path='/fleetheflood' component={FleeTheFlood} />
-                <Route path='/privacypolicy' component={PrivacyPolicy} />
-            </Switch>
+            <Route exact path='/' component={Home} />
+            <Route path='/fleetheflood' component={FleeTheFlood} />
+            <Route path='/privacypolicy' component={PrivacyPolicy} />
         </Router>
     );
 }
