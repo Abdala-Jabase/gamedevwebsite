@@ -1,7 +1,8 @@
-// components/GameDescription.js
+// components/HomePage.js
 import React from 'react';
-import './GameDescription.css';
-function GameDescription() {
+import './HomePage.css';
+
+function HomePage() {
     return (
         <section>
             <h2>About Flee the Flood</h2>
@@ -17,4 +18,4 @@ function GameDescription() {
     );
 }
 
-export default GameDescription;
+export default HomePage;
