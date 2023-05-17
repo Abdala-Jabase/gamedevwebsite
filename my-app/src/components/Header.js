@@ -4,16 +4,11 @@ import './Header.css';
 
 function Header() {
     return (
-        <header>
-            <h1>Welcome to Flee the Flood</h1>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
-        </header>
+        <div>
+            <a>Home</a>
+            <a>Flee the Flood</a>
+            <a>Privacy Policy</a>
+        </div>
     );
 }
 
