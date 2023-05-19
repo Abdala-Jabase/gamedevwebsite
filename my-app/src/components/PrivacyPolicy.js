@@ -5,6 +5,7 @@ import './PrivacyPolicy.css';
 function PrivacyPolicy() {
     return (
         <section>
+            <div className='background'>
                 <p>PRIVACY NOTICE</p>
                     <p>Last updated May 19, 2023</p>
                     <p>Thank you for choosing to be part of our community at Aj.appdevelopmentgroup (&quot;Company&quot;, &quot;we&quot;, &quot;us&quot;, &quot;our&quot;). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at aj.appdevelopmentgroup@gmail.com.</p>
@@ -105,7 +106,8 @@ function PrivacyPolicy() {
     
                     <p>12. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</p>
     
-                    <p>Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please submit a request form by clicking here. We will respond to your request within 30 days. This privacy policy was created using Termly&rsquo;s Privacy Policy Generator.</p>
+                    <p>Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please submit a request form by clicking here. We will respond to your request within 30 days.</p>
+                </div>
             </section>
     );
 }
