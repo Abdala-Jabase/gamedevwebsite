@@ -1,19 +1,59 @@
-.home-container {
+/* CSS for HomePage component */
+
+.container {
+    background: linear-gradient(180deg, #2C3E50 0%, #4CA1AF 100%);
+    padding: 4rem;
+    border-radius: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.hero {
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.tagline {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    background-color: #007AFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.projects {
+    margin-top: 60px;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.project {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
-    background-color: #f8f8f8;
+    align-items: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 1rem;
-}
-
-p {
-    font-size: 1.2rem;
-    color: #666;
+.project-info {
+    text-align: center;
 }
