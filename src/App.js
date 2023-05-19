@@ -10,7 +10,7 @@ import PrivacyPolicy from './components/PrivacyPolicy';
 
 function App() {
   return (
-    <BrowserRouter basename="/gamedevwebsite">
+    <BrowserRouter >
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
