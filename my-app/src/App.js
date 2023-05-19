@@ -2,19 +2,23 @@ import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import AppRouter from './components/AppRouter';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from './components/Layout';
+import Home from './components/HomePage';
+import FleeTheFlood from './components/FleeTheFlood';
+import PrivacyPolicy from './components/PrivacyPolicy';
 
 function App() {
   return (
-    <div className='app-container'>
-      <Router>
-        <Header />
-        <main>
-          <AppRouter />
-        </main>
-        <Footer />
-      </Router>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="fleetheflood" element={<FleeTheFlood />} />
+          <Route path="privacypolicy" element={<PrivacyPolicy />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
