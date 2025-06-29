@@ -12,7 +12,7 @@ function App() {
   return (
 
     <Routes>
-      <Route path="/" element={<Layout />}>
+      <Route path="/gamedevwebsite" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="fleetheflood" element={<FleeTheFlood />} />
         <Route path="privacypolicy" element={<PrivacyPolicy />} />
