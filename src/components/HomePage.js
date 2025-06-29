@@ -15,7 +15,7 @@ function HomePage() {
 
                 <div className="project">
                     <div className="project-info">
-                        <img src="https://duet-cdn.vox-cdn.com/thumbor/0x0:1200x630/640x427/filters:focal(600x315:601x316):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/21812330/Unity_1200X630.png" alt="Unity Engine" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Unity_2021.svg/1280px-Unity_2021.svg.png" alt="Unity Engine" />
                     </div>
                 </div>
                 <div className="project">
